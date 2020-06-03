@@ -16,7 +16,7 @@ pipeline{
         
         stage('Run Application'){
             steps{
-                    sh label: '', script: 'sudo chmod 777 hello.sh'
+                    sh label: '', script: 'sudo chmod 777 deployment.sh'
                     sh label: '', script: './deployment.sh'
             }
         }
