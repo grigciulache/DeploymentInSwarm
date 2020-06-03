@@ -1,4 +1,2 @@
 #!/bin/bash
-echo  Deployment Time!
-echo First time
-echo Test
+docker stack deploy -c docker-compose.yml firstStack
